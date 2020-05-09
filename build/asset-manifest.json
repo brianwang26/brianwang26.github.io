@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/personalwebsite/static/css/main.330b1256.chunk.css",
+    "main.js": "/personalwebsite/static/js/main.6ae6003c.chunk.js",
+    "main.js.map": "/personalwebsite/static/js/main.6ae6003c.chunk.js.map",
+    "runtime-main.js": "/personalwebsite/static/js/runtime-main.fba12de6.js",
+    "runtime-main.js.map": "/personalwebsite/static/js/runtime-main.fba12de6.js.map",
+    "static/js/2.dbc673fb.chunk.js": "/personalwebsite/static/js/2.dbc673fb.chunk.js",
+    "static/js/2.dbc673fb.chunk.js.map": "/personalwebsite/static/js/2.dbc673fb.chunk.js.map",
+    "index.html": "/personalwebsite/index.html",
+    "precache-manifest.0ac11120a97d71b8c5a69f51b39be774.js": "/personalwebsite/precache-manifest.0ac11120a97d71b8c5a69f51b39be774.js",
+    "service-worker.js": "/personalwebsite/service-worker.js",
+    "static/css/main.330b1256.chunk.css.map": "/personalwebsite/static/css/main.330b1256.chunk.css.map",
+    "static/js/2.dbc673fb.chunk.js.LICENSE.txt": "/personalwebsite/static/js/2.dbc673fb.chunk.js.LICENSE.txt",
+    "static/media/basketball.jpeg": "/personalwebsite/static/media/basketball.9e285155.jpeg",
+    "static/media/bed.jpg": "/personalwebsite/static/media/bed.c386c42a.jpg",
+    "static/media/kayak.jpeg": "/personalwebsite/static/media/kayak.48b4bcf7.jpeg",
+    "static/media/memeA.png": "/personalwebsite/static/media/memeA.7355c9e4.png",
+    "static/media/memeB.jpg": "/personalwebsite/static/media/memeB.48e2f4cf.jpg",
+    "static/media/memeC.jpg": "/personalwebsite/static/media/memeC.01493d0d.jpg",
+    "static/media/tokyo.jpeg": "/personalwebsite/static/media/tokyo.8f463c9e.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fba12de6.js",
+    "static/js/2.dbc673fb.chunk.js",
+    "static/css/main.330b1256.chunk.css",
+    "static/js/main.6ae6003c.chunk.js"
+  ]
+}
