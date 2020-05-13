@@ -151,7 +151,7 @@ function App() {
 
         Checkbox: <input type="checkbox" onclick="myFunction()"></input>
 
-        <h4><font color = "white"> What are you feeling right now? </font></h4>
+        <h4><font color = "white"> What are you right now? </font></h4>
         <div className = "buttonContainer">
         <button onClick={console.log("Happy")}>
           Happy!
