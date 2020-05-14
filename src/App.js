@@ -84,7 +84,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1><font color="aqua">Welcome to my Website</font></h1>
+        <h1><font color="aqua">This is so dope</font></h1>
         <Dog name="Oscar"> </Dog>
         <h2><font color="fuchsia">Who I am</font></h2>
         <p> <font color = "lime">My name is Brian Wang and I am currently a first-year student at Dartmouth College. At Dartmouth, I am doing a double major 
