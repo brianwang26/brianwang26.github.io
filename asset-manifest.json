@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.330b1256.chunk.css",
-    "main.js": "/static/js/main.5504217a.chunk.js",
-    "main.js.map": "/static/js/main.5504217a.chunk.js.map",
+    "main.css": "/static/css/main.1eb17281.chunk.css",
+    "main.js": "/static/js/main.9ec3cc0a.chunk.js",
+    "main.js.map": "/static/js/main.9ec3cc0a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.126eb33a.js",
     "runtime-main.js.map": "/static/js/runtime-main.126eb33a.js.map",
-    "static/js/2.dbc673fb.chunk.js": "/static/js/2.dbc673fb.chunk.js",
-    "static/js/2.dbc673fb.chunk.js.map": "/static/js/2.dbc673fb.chunk.js.map",
+    "static/css/2.a641e29a.chunk.css": "/static/css/2.a641e29a.chunk.css",
+    "static/js/2.64d5016d.chunk.js": "/static/js/2.64d5016d.chunk.js",
+    "static/js/2.64d5016d.chunk.js.map": "/static/js/2.64d5016d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.25a6f9266d945617a25141a1a2aa3bb3.js": "/precache-manifest.25a6f9266d945617a25141a1a2aa3bb3.js",
+    "precache-manifest.8b17f51e3f5a4cbdb8fadba26e0ebbcc.js": "/precache-manifest.8b17f51e3f5a4cbdb8fadba26e0ebbcc.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.330b1256.chunk.css.map": "/static/css/main.330b1256.chunk.css.map",
-    "static/js/2.dbc673fb.chunk.js.LICENSE.txt": "/static/js/2.dbc673fb.chunk.js.LICENSE.txt",
+    "static/css/2.a641e29a.chunk.css.map": "/static/css/2.a641e29a.chunk.css.map",
+    "static/css/main.1eb17281.chunk.css.map": "/static/css/main.1eb17281.chunk.css.map",
+    "static/js/2.64d5016d.chunk.js.LICENSE.txt": "/static/js/2.64d5016d.chunk.js.LICENSE.txt",
     "static/media/basketball.jpeg": "/static/media/basketball.9e285155.jpeg",
     "static/media/bed.jpg": "/static/media/bed.c386c42a.jpg",
     "static/media/kayak.jpeg": "/static/media/kayak.48b4bcf7.jpeg",
-    "static/media/memeA.png": "/static/media/memeA.7355c9e4.png",
-    "static/media/memeB.jpg": "/static/media/memeB.48e2f4cf.jpg",
-    "static/media/memeC.jpg": "/static/media/memeC.01493d0d.jpg",
     "static/media/tokyo.jpeg": "/static/media/tokyo.8f463c9e.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.126eb33a.js",
-    "static/js/2.dbc673fb.chunk.js",
-    "static/css/main.330b1256.chunk.css",
-    "static/js/main.5504217a.chunk.js"
+    "static/css/2.a641e29a.chunk.css",
+    "static/js/2.64d5016d.chunk.js",
+    "static/css/main.1eb17281.chunk.css",
+    "static/js/main.9ec3cc0a.chunk.js"
   ]
 }
