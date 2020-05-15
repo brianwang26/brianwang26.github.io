@@ -3,12 +3,11 @@ import bed from './bed.jpg';
 import basketball from './basketball.jpeg';
 import kayak from './kayak.jpeg';
 import tokyo from './tokyo.jpeg';
-import memeA from './memeA.png';
-import memeB from './memeB.jpg';
-import memeC from './memeC.jpg';
-
+import styles from './Styles.css'
 import './App.css'; 
-import Dog from './Dog'   
+import Dog from './Dog';
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
 
 function App() {
 
@@ -84,7 +83,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1><font color="aqua">This is so dope</font></h1>
+        <h1> Brian Wang </h1>
         <Dog name="Oscar"> </Dog>
         <h2><font color="fuchsia">Who I am</font></h2>
         <p> <font color = "lime">My name is Brian Wang and I am currently a first-year student at Dartmouth College. At Dartmouth, I am doing a double major 
@@ -172,15 +171,33 @@ function App() {
           Hungry
         </button>
         </div>
-        <div className = "memeHeader">
-          <h1><font color = "blue"> Meme Wall </font></h1>
-        </div>
+        <p>  </p> 
 
-        <div className = "memes">
-          <img src={memeA} />
-          <img src={memeB} />
-          <img src = {memeC} />
+        {/* Uses Vertical Timeline Element to construct visual timeline of projects */}
+        <div className = "projects">
+          <h1><font color = "black"> Projects </font></h1>
         </div>
+        <div></div>
+        <VerticalTimeline>
+
+          <VerticalTimelineElement
+              className="vertical-timeline-element--education"
+              contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+              contentArrowStyle={{ borderRight: '10px solid  rgb(33, 150, 243)' }}
+              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            >
+            <h1 className="vertical-timeline-element-title">DartPoll</h1>
+            <p></p>
+            <h7 className="vertical-timeline-element-subtitle">April 2020-Present</h7>
+            <p> Worked in a team of 4 to build a platform where Dartmouth students can pose and respond to polls. DartPoll also allows users to see data visualizations of poll results. </p>
+            <p> Tools Used: React, Firebase, Chart.js, Moment.js </p>
+            <a className="App-link" href="https://github.com/msorbaro/coast-to-coast" target="_blank" rel="noopener noreferrer">
+                GitHub Repository
+             </a>
+      </VerticalTimelineElement>
+
+  
+</VerticalTimeline>
 
       </header>
     </div>

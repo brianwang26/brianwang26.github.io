@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color:rgb(22, 226, 233);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+    font-size: medium; 
 }
 
 @keyframes App-logo-spin {
@@ -69,16 +69,11 @@
   padding: 10px; 
 }
 
-.memeHeader {
-  background-color: green; 
-  justify-content: center; 
+.projects {
+  background-color: rgb(24, 182, 24); 
   border-color: white; 
   border-radius: 15px; 
-}
-
-.memes {
-  object-fit: contain;
-  display: flex; 
+  width: 15%; 
 }
 
 .questionnaire {
@@ -89,7 +84,6 @@
   width: 20%;
   height: 20%; 
   justify-content: space-between; 
-
 }
 
 .dropdown-check-list {
