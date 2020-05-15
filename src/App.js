@@ -221,10 +221,6 @@ function App() {
             <img src={deer}/> 
             <span> Me bowing to deer in Nara, Japan</span>
           </a>
-
-
-
-
       </div>
 
 
@@ -232,7 +228,6 @@ function App() {
       <div className = "ending">
       <p> Thanks for visiting my website! Please come again another time, as I will be constantly updating this site with projects and hobbies that I pick up. Also, I will be improving the design of this site as I get better at React and CSS! Please feel free to reach out to me at anytime. </p>
       </div> 
-
 
       </header>
     </div>
