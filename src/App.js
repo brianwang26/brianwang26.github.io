@@ -3,6 +3,9 @@ import basketball from './basketball.png';
 import kayak from './kayak.jpeg';
 import football from './Football.png';
 import selfImage from './selfImage.png';
+import umbrella from './umbrella.png';
+import brothers from './brothers.png';
+
 import './App.css'; 
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
@@ -193,8 +196,24 @@ function App() {
       <p> </p>
       <div className = "fun">
           <h1><font color = "black"> Fun Section</font></h1>
+          <p> </p>
       </div>
-      <p> </p>
+      <p><font color = "white"> ** Hover over to see the fun facts ** </font></p>
+
+      <div className = "funSection">
+          <a>
+            <img src={brothers}/>
+            <span> My brother David and I</span>
+          </a>
+          <a>
+            <img src={umbrella}/> 
+            <span> I don't know how to open an umbrella</span>
+          </a>
+          <a> 
+            <img src={kayak}/> 
+          </a>
+      </div>
+
 
       <p> </p>
       <div className = "ending">

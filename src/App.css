@@ -105,6 +105,13 @@
   font-family: "Lucida Calligraphy"; 
 }
 
+.funSection{
+  width: 60%; 
+  display: flex; 
+  flex-flow: row wrap; 
+  justify-content: space-around; 
+}
+
 a img {
   width: auto; 
   height: 300px; 
@@ -116,7 +123,7 @@ a {
 
 a span {
   display: none;
-  position: relative;
+  position: absolute;
   bottom: 0;
   width: 100%;
   padding: 10px;
