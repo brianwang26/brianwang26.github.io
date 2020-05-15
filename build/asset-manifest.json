@@ -1,29 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.a0373ce0.chunk.css",
-    "main.js": "/static/js/main.d7475edb.chunk.js",
-    "main.js.map": "/static/js/main.d7475edb.chunk.js.map",
+    "main.css": "/static/css/main.c96e85a8.chunk.css",
+    "main.js": "/static/js/main.0aff94d3.chunk.js",
+    "main.js.map": "/static/js/main.0aff94d3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.126eb33a.js",
     "runtime-main.js.map": "/static/js/runtime-main.126eb33a.js.map",
     "static/css/2.a641e29a.chunk.css": "/static/css/2.a641e29a.chunk.css",
-    "static/js/2.14d00545.chunk.js": "/static/js/2.14d00545.chunk.js",
-    "static/js/2.14d00545.chunk.js.map": "/static/js/2.14d00545.chunk.js.map",
+    "static/js/2.69c27141.chunk.js": "/static/js/2.69c27141.chunk.js",
+    "static/js/2.69c27141.chunk.js.map": "/static/js/2.69c27141.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.da30b5f88f205183c87a459365899d73.js": "/precache-manifest.da30b5f88f205183c87a459365899d73.js",
+    "precache-manifest.9aa55000c66aef4792ba16c5f09050e2.js": "/precache-manifest.9aa55000c66aef4792ba16c5f09050e2.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.a641e29a.chunk.css.map": "/static/css/2.a641e29a.chunk.css.map",
-    "static/css/main.a0373ce0.chunk.css.map": "/static/css/main.a0373ce0.chunk.css.map",
-    "static/js/2.14d00545.chunk.js.LICENSE.txt": "/static/js/2.14d00545.chunk.js.LICENSE.txt",
+    "static/css/main.c96e85a8.chunk.css.map": "/static/css/main.c96e85a8.chunk.css.map",
+    "static/js/2.69c27141.chunk.js.LICENSE.txt": "/static/js/2.69c27141.chunk.js.LICENSE.txt",
     "static/media/Football.png": "/static/media/Football.a7fe9944.png",
     "static/media/basketball.png": "/static/media/basketball.b4b72835.png",
+    "static/media/brothers.png": "/static/media/brothers.0667dd29.png",
     "static/media/kayak.jpeg": "/static/media/kayak.48b4bcf7.jpeg",
-    "static/media/selfImage.png": "/static/media/selfImage.74d11b59.png"
+    "static/media/selfImage.png": "/static/media/selfImage.74d11b59.png",
+    "static/media/umbrella.png": "/static/media/umbrella.35060ab2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.126eb33a.js",
     "static/css/2.a641e29a.chunk.css",
-    "static/js/2.14d00545.chunk.js",
-    "static/css/main.a0373ce0.chunk.css",
-    "static/js/main.d7475edb.chunk.js"
+    "static/js/2.69c27141.chunk.js",
+    "static/css/main.c96e85a8.chunk.css",
+    "static/js/main.0aff94d3.chunk.js"
   ]
 }

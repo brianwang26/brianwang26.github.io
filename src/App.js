@@ -5,6 +5,8 @@ import football from './Football.png';
 import selfImage from './selfImage.png';
 import umbrella from './umbrella.png';
 import brothers from './brothers.png';
+import deer from './deer.png';
+import spikeball from './spikeball.png';
 
 import './App.css'; 
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
@@ -191,6 +193,10 @@ function App() {
             <img src={kayak}/> 
             <figcaption><font color = "white"> Kayaking on the Williamette River in Portland, OR </font></figcaption>
           </a>
+          <a> 
+            <img src={spikeball}/> 
+            <figcaption><font color = "white"> Playing spikeball on the Santa Cruz Beach with friends </font></figcaption>
+          </a>
       </div>
 
       <p> </p>
@@ -205,13 +211,20 @@ function App() {
             <img src={brothers}/>
             <span> My brother David and I</span>
           </a>
+
           <a>
             <img src={umbrella}/> 
-            <span> I don't know how to open an umbrella</span>
+            <span> I actually don't know how to use an umbrella</span>
           </a>
+
           <a> 
-            <img src={kayak}/> 
+            <img src={deer}/> 
+            <span> Me bowing to deer in Nara, Japan</span>
           </a>
+
+
+
+
       </div>
 
 
