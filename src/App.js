@@ -173,7 +173,7 @@ function App() {
         </div>
         <p>  </p> 
 
-        {/* Uses Vertical Timeline Element to construct visual timeline of projects */}
+        {/* Uses Vertical Timeline Element to construct visual timeline of projects I've worked on */}
         <div className = "projects">
           <h1><font color = "black" font-weight = "bold"> Projects </font></h1>
         </div>
