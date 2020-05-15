@@ -1,12 +1,9 @@
 import React from 'react';
-import bed from './bed.jpg';
-import basketball from './basketball.jpeg';
+import basketball from './basketball.png';
 import kayak from './kayak.jpeg';
-import tokyo from './tokyo.jpeg';
-import styles from './Styles.css';
+import football from './Football.png';
 import selfImage from './selfImage.png';
 import './App.css'; 
-import Dog from './Dog';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -40,7 +37,7 @@ function App() {
         {/* <Dog name="Oscar"> </Dog> */}
         <h2><font color="white">About Me</font></h2>
         <div className = "aboutMe"> 
-        <p> <font color = "black">My name is Brian Wang and I am currently a first-year student at Dartmouth College. I am completing a double major 
+        <p> <font color = "black">My name is Brian Wang and I am currently a first-year student at Dartmouth College. I am a double major 
           in computer science and economics modified with math. I was born in Raleigh, North Carolina and am currently residing in Fremont, California in the San Francisco Bay Area. 
           In my free time, I love playing an array of sports and hanging out with my 24-year old brother (sometimes I do both at the same time!). Through this website, I hope you can learn 
           more about me, my projects, and my hobbies. Hope you enjoy!</font></p>
@@ -178,18 +175,22 @@ function App() {
       </div>
       <p> </p>
 
-      <h2><font color="white">Fun Facts (Hover to see them)</font></h2>
-      <div className = "selfImage">
+      <div className = "hobbyPics">
           <a>
             <img src={basketball}/>
-            <span>Me playing basketball</span>
+            <span>Ballin' in Taiwan</span>
           </a>
           <a>
-            <img src={bed}/> 
-            <span> Me Sleeping </span>
+            <img src={football}/> 
+            <span> Throwing in my backyard </span>
           </a>
-        </div>
+          <a> 
+            <img src={kayak}/> 
+            <span> Kayaking on the Williamette River in Portland, OR</span>   
+          </a>
+      </div>
 
+      <p> </p>
       <div className = "ending">
       <p> Thanks for visiting my website! Please come again another time, as I will be constantly updating this site with projects and hobbies that I pick up. Also, I will be improving the design of this site as I get better at React and CSS! Please feel free to reach out to me at anytime. </p>
       </div> 
