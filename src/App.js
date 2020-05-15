@@ -205,7 +205,7 @@ function App() {
             <h1 className="vertical-timeline-element-title">The Dartmouth Mobile App</h1>
             <p></p>
             <h7 className="vertical-timeline-element-subtitle">April 2020-Present</h7>
-            <p> Hired to help build our campus newspaper. </p>
+            <p> Hired to help develop our campus newspaper's own mobile application from scratch. </p>
             <p> Tools Using: React Native, Express, MongoDB </p>
             </VerticalTimelineElement>
 
@@ -215,7 +215,7 @@ function App() {
               contentArrowStyle={{ borderRight: '10px solid  rgb(33, 150, 243)' }}
               iconStyle={{ background: 'rgb(255, 99, 71)', color: '#fff' }}
             >
-            <h1 className="vertical-timeline-element-title">This Website</h1>
+            <h1 className="vertical-timeline-element-title">Personal Website</h1>
             <p></p>
             <h7 className="vertical-timeline-element-subtitle">March 2020-Present</h7>
             <p> Building the website you are currently on! </p>
@@ -234,10 +234,55 @@ function App() {
             <h1 className="vertical-timeline-element-title">Dartmouth Trends</h1>
             <p></p>
             <h7 className="vertical-timeline-element-subtitle">March 2020-Present</h7>
-            <p> Building a website that allows Dartmouth administration and students to understand grade distribution and enrollment patterns of classes and academic departments. </p>
+            <p> Developing a website that allows Dartmouth administration and students to understand grade distribution and enrollment patterns of classes and academic departments. </p>
             <p> Tools Using: Python, BeautifulSoup, Pandas, Matplotlib, React, Flask </p>
             <a className="App-link" href="https://github.com/brianwang26/DartmouthTrends" target="_blank" rel="noopener noreferrer">
                 GitHub Repository
+             </a>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--education"
+              contentStyle={{ background: 'rgb(34, 139, 34)', color: '#fff' }}
+              contentArrowStyle={{ borderRight: '10px solid  rgb(33, 150, 243)' }}
+              iconStyle={{ background: 'rgb(34, 139, 34)', color: '#fff' }}
+            >
+            <h1 className="vertical-timeline-element-title">myCan</h1>
+            <p></p>
+            <h7 className="vertical-timeline-element-subtitle">July 2018-August 2018</h7>
+            <p> Worked with a partner to create an autonomous mobile sanitation bin that could be controlled via auditory inputs and a mobile app. </p>
+            <p> Tools Used: Arduino C, MIT App Inventor, Arduino Uno Circuit Boards, Servo Motors, Sound Sensors, Pressure Sensors</p>
+            <a className="App-link" href="https://tinyurl.com/myCanDemo" target="_blank" rel="noopener noreferrer">
+                Demo
+            </a>
+            <a>    </a>
+            <a className="App-link" href="https://docs.google.com/presentation/d/1M_CXiu0t9frGUl3Y-2Vlnpmppz6ou-nHhnB4ZCUIdTU/edit#slide=id.p" target="_blank" rel="noopener noreferrer">
+                Poster Board
+            </a>
+            <a>    </a>
+            <a className="App-link" href="https://www.youtube.com/watch?v=JiKbZPzy4PY" target="_blank" rel="noopener noreferrer">
+                Presentation
+            </a>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--education"
+              contentStyle={{ background: 'rgb(255, 99, 71)', color: '#fff' }}
+              contentArrowStyle={{ borderRight: '10px solid  rgb(33, 150, 243)' }}
+              iconStyle={{ background: 'rgb(255, 99, 71)', color: '#fff' }}
+            >
+            <h1 className="vertical-timeline-element-title">iPaint</h1>
+            <p></p>
+            <h7 className="vertical-timeline-element-subtitle">July 2018</h7>
+            <p> Worked with a partner to develop a multi-featured drawing mobile app with multiple backgrounds, colors, and brushes. </p>
+            <p> Tools Used: MIT App Inventor </p>
+
+            <a className="App-link" href="tinyurl.com/iPaintDemo" target="_blank" rel="noopener noreferrer">
+                Demo
+             </a>
+             <a>    </a>
+             <a className="App-link" href="https://www.youtube.com/watch?v=ZqKt1ITV0jU" target="_blank" rel="noopener noreferrer">
+                Presentation
              </a>
             </VerticalTimelineElement>
 

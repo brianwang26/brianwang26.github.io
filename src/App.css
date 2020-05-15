@@ -73,7 +73,13 @@
   background-color: rgb(24, 182, 24); 
   border-color: white; 
   border-radius: 15px; 
+  border-style: solid; 
   width: 15%; 
+}
+
+.links {
+  justify-content: space-between;
+  flex-flow: column; 
 }
 
 .questionnaire {
