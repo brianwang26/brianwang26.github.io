@@ -32,9 +32,9 @@ function App() {
         <h1><font size = "7"> Brian Wang </font></h1>
 
         <div className = "contactInfo">
-        <h2><font size = "6"><font color = "black"> 510-516-9253 </font></font></h2>
-        <h2><font size = "6"><font color = "black"> brian.c.wang.23@dartmouth.edu</font></font></h2>
-        <h2><font size = "6"><font color = "black"> www.linkedin.com/in/brianwang2023 </font></font></h2>
+          <p><font color = "black"><font size = "6">510-516-9253</font></font></p>
+          <p><font color = "black"><font size = "6">brian.c.wang.23@dartmouth.edu</font></font></p>
+          <p><font color = "black"><font size = "6">www.linkedin.com/in/brianwang2023</font></font></p>
         </div> 
 
         {/* <Dog name="Oscar"> </Dog> */}

@@ -45,7 +45,7 @@
   border-radius: 10px; 
   border-style: solid; 
   display: flex;
-  flex: row; 
+  flex-flow: row wrap;
   justify-content: center;  
   justify-content: space-around; 
 }
@@ -70,7 +70,7 @@
 .hobbies {
   background-color: yellow; 
   border-color: white; 
-  border-radius: 15px; 
+  border-radius: 10px; 
   border-style: solid; 
   width: 15%; 
 }
