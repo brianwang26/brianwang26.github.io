@@ -59,6 +59,36 @@
   border-style: solid; 
 }
 
+.selfImage {
+  width: 65%; 
+  display: flex;  
+  flex-flow: row wrap;
+  justify-content: space-around; 
+}
+
+.selfImage img {
+  height: auto;
+  width: 50%;
+}
+
+a {
+  position: relative; 
+}
+
+a span {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  color: black; 
+  background: black(255,255,255,.8);
+}
+
+a:hover span {
+  display: block
+}
+
 .projects {
   background-color: rgb(24, 182, 24); 
   border-color: white; 

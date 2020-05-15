@@ -3,7 +3,8 @@ import bed from './bed.jpg';
 import basketball from './basketball.jpeg';
 import kayak from './kayak.jpeg';
 import tokyo from './tokyo.jpeg';
-import styles from './Styles.css'
+import styles from './Styles.css';
+import selfImage from './selfImage.png';
 import './App.css'; 
 import Dog from './Dog';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
@@ -37,11 +38,19 @@ function App() {
         </div> 
 
         {/* <Dog name="Oscar"> </Dog> */}
-        <h2><font color="white">About me</font></h2>
+        <h2><font color="white">About Me</font></h2>
         <div className = "aboutMe"> 
         <p> <font color = "black">My name is Brian Wang and I am currently a first-year student at Dartmouth College. I am completing a double major 
-          in computer science and economics modified with math. I'm originally from Raleigh, North Carolina and am currently residing in the San Francisco Bay Area. Through this website, I hope you can learn 
-          more about me, my projects, and my hobbies.</font></p>
+          in computer science and economics modified with math. I was born in Raleigh, North Carolina and am currently residing in Fremont, California in the San Francisco Bay Area. 
+          In my free time, I love playing an array of sports and hanging out with my 24-year old brother (sometimes I do both at the same time!). Through this website, I hope you can learn 
+          more about me, my projects, and my hobbies. Hope you enjoy!</font></p>
+        </div>
+
+        <p> </p>
+
+        <div className = "selfImage">
+            <img src = {selfImage} />
+            <figcaption><font color = "white"> A picture of me at the top floor of the Tokyo Metropolitan Government Building</font></figcaption>
         </div>
 
         <p> </p>
@@ -74,7 +83,7 @@ function App() {
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               contentStyle={{ background: 'rgb(34, 139, 34)', color: '#fff' }}
-              contentArrowStyle={{ borderRight: '10px solid  rgb(33, 150, 243)' }}
+              contentArrowStyle={{ borderRight: '10px solid  rgb(34, 139, 34)' }}
               iconStyle={{ background: 'rgb(34, 139, 34)', color: '#fff' }}
             >
             <h1 className="vertical-timeline-element-title">The Dartmouth Mobile App</h1>
@@ -87,7 +96,7 @@ function App() {
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               contentStyle={{ background: 'rgb(255, 99, 71)', color: '#fff' }}
-              contentArrowStyle={{ borderRight: '10px solid  rgb(33, 150, 243)' }}
+              contentArrowStyle={{ borderRight: '10px solid  rgb(255, 99, 71)' }}
               iconStyle={{ background: 'rgb(255, 99, 71)', color: '#fff' }}
             >
             <h1 className="vertical-timeline-element-title">Personal Website</h1>
@@ -119,7 +128,7 @@ function App() {
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               contentStyle={{ background: 'rgb(34, 139, 34)', color: '#fff' }}
-              contentArrowStyle={{ borderRight: '10px solid  rgb(33, 150, 243)' }}
+              contentArrowStyle={{ borderRight: '10px solid  rgb(34, 139, 34)' }}
               iconStyle={{ background: 'rgb(34, 139, 34)', color: '#fff' }}
             >
             <h1 className="vertical-timeline-element-title">myCan</h1>
@@ -143,7 +152,7 @@ function App() {
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               contentStyle={{ background: 'rgb(255, 99, 71)', color: '#fff' }}
-              contentArrowStyle={{ borderRight: '10px solid  rgb(33, 150, 243)' }}
+              contentArrowStyle={{ borderRight: '10px solid  rgb(255, 99, 71)' }}
               iconStyle={{ background: 'rgb(255, 99, 71)', color: '#fff' }}
             >
             <h1 className="vertical-timeline-element-title">iPaint</h1>
@@ -168,6 +177,18 @@ function App() {
           <h1><font color = "black" font-weight = "bold"> Hobbies</font></h1>
       </div>
       <p> </p>
+
+      <h2><font color="white">Fun Facts (Hover to see them)</font></h2>
+      <div className = "selfImage">
+          <a>
+            <img src={basketball}/>
+            <span>Me playing basketball</span>
+          </a>
+          <a>
+            <img src={bed}/> 
+            <span> Me Sleeping </span>
+          </a>
+        </div>
 
       <div className = "ending">
       <p> Thanks for visiting my website! Please come again another time, as I will be constantly updating this site with projects and hobbies that I pick up. Also, I will be improving the design of this site as I get better at React and CSS! Please feel free to reach out to me at anytime. </p>
