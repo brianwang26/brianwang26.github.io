@@ -175,7 +175,7 @@ function App() {
 
         {/* Uses Vertical Timeline Element to construct visual timeline of projects */}
         <div className = "projects">
-          <h1><font color = "black"> Projects </font></h1>
+          <h1><font color = "black" font-weight = "bold"> Projects </font></h1>
         </div>
         <div></div>
         <VerticalTimeline>
@@ -189,15 +189,60 @@ function App() {
             <h1 className="vertical-timeline-element-title">DartPoll</h1>
             <p></p>
             <h7 className="vertical-timeline-element-subtitle">April 2020-Present</h7>
-            <p> Worked in a team of 4 to build a platform where Dartmouth students can pose and respond to polls. DartPoll also allows users to see data visualizations of poll results. </p>
-            <p> Tools Used: React, Firebase, Chart.js, Moment.js </p>
+            <p> Worked in a team of 4 to build a platform where Dartmouth students can pose and respond to polls. </p>
+            <p> Tools Using: React, CSS, Firebase, Chart.js, Moment.js, SVG, Figma </p>
             <a className="App-link" href="https://github.com/msorbaro/coast-to-coast" target="_blank" rel="noopener noreferrer">
                 GitHub Repository
              </a>
-      </VerticalTimelineElement>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--education"
+              contentStyle={{ background: 'rgb(34, 139, 34)', color: '#fff' }}
+              contentArrowStyle={{ borderRight: '10px solid  rgb(33, 150, 243)' }}
+              iconStyle={{ background: 'rgb(34, 139, 34)', color: '#fff' }}
+            >
+            <h1 className="vertical-timeline-element-title">The Dartmouth Mobile App</h1>
+            <p></p>
+            <h7 className="vertical-timeline-element-subtitle">April 2020-Present</h7>
+            <p> Hired to help build our campus newspaper. </p>
+            <p> Tools Using: React Native, Express, MongoDB </p>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--education"
+              contentStyle={{ background: 'rgb(255, 99, 71)', color: '#fff' }}
+              contentArrowStyle={{ borderRight: '10px solid  rgb(33, 150, 243)' }}
+              iconStyle={{ background: 'rgb(255, 99, 71)', color: '#fff' }}
+            >
+            <h1 className="vertical-timeline-element-title">This Website</h1>
+            <p></p>
+            <h7 className="vertical-timeline-element-subtitle">March 2020-Present</h7>
+            <p> Building the website you are currently on! </p>
+            <p> Tools Using: React, CSS </p>
+            <a className="App-link" href="https://github.com/brianwang26/brianwang26.github.io" target="_blank" rel="noopener noreferrer">
+                GitHub Repository
+             </a>
+            </VerticalTimelineElement>
+
+            <VerticalTimelineElement
+              className="vertical-timeline-element--education"
+              contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+              contentArrowStyle={{ borderRight: '10px solid  rgb(33, 150, 243)' }}
+              iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            >
+            <h1 className="vertical-timeline-element-title">Dartmouth Trends</h1>
+            <p></p>
+            <h7 className="vertical-timeline-element-subtitle">March 2020-Present</h7>
+            <p> Building a website that allows Dartmouth administration and students to understand grade distribution and enrollment patterns of classes and academic departments. </p>
+            <p> Tools Using: Python, BeautifulSoup, Pandas, Matplotlib, React, Flask </p>
+            <a className="App-link" href="https://github.com/brianwang26/DartmouthTrends" target="_blank" rel="noopener noreferrer">
+                GitHub Repository
+             </a>
+            </VerticalTimelineElement>
 
   
-</VerticalTimeline>
+      </VerticalTimeline>
 
       </header>
     </div>
