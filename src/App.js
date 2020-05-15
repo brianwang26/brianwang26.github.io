@@ -277,7 +277,7 @@ function App() {
             <p> Worked with a partner to develop a multi-featured drawing mobile app with multiple backgrounds, colors, and brushes. </p>
             <p> Tools Used: MIT App Inventor </p>
 
-            <a className="App-link" href="tinyurl.com/iPaintDemo" target="_blank" rel="noopener noreferrer">
+            <a className="App-link" href="https://tinyurl.com/iPaintDemo" target="_blank" rel="noopener noreferrer">
                 Demo
              </a>
              <a>    </a>
@@ -286,7 +286,6 @@ function App() {
              </a>
             </VerticalTimelineElement>
 
-  
       </VerticalTimeline>
 
       </header>
