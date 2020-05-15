@@ -37,42 +37,32 @@
   }
 }
 
-.doggy {
-  color: purple;
-  background-color: white; 
-  border-color: blue; 
-  border-radius: 10px; 
-  border-style: dashed; 
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: medium; 
+.contactInfo {
+  width: 65%; 
+  background-color: greenyellow;  
+  border-color: white; 
   padding: 5px; 
-}
-
-.dogContainer {
-  background-color: yellow; 
+  border-radius: 10px; 
+  border-style: solid; 
   display: flex;
-  flex-direction: row; 
-  width: 100%; 
-  justify-content: space-around;
+  flex: row; 
+  justify-content: center;  
+  justify-content: space-around; 
 }
 
-.buttonContainer {
-  background-color: aqua; 
-  display: flex; 
-  flex-flow: row wrap; 
-  justify-content: space-around;
-  width: 25%;
-  border-color: red; 
-  border-radius: 15px; 
-  border-style: dashed; 
-  font-size: medium; 
-  padding: 10px; 
+.aboutMe {
+  width: 65%;
+  background-color: orange; 
+  border-color: white; 
+  padding: 5px; 
+  border-radius: 10px; 
+  border-style: solid; 
 }
 
 .projects {
   background-color: rgb(24, 182, 24); 
   border-color: white; 
-  border-radius: 15px; 
+  border-radius: 10px; 
   border-style: solid; 
   width: 15%; 
 }
@@ -90,16 +80,14 @@
   flex-flow: column; 
 }
 
-.aboutMe {
-  width: 60%;
-}
-
-.contactInfo {
-  width: 60%; 
-  display: flex;
-  flex: row; 
-  justify-content: center;  
-  justify-content: space-between; 
+.ending{
+  width: 65%; 
+  background-color: aqua; 
+  color: black; 
+  border-color: white; 
+  padding: 5px; 
+  border-radius: 10px; 
+  border-style: solid; 
 }
 
 .questionnaire {
@@ -157,3 +145,35 @@
 .dropdown-check-list.visible .items {
   display: block;
 }
+
+/* .doggy {
+  color: purple;
+  background-color: white; 
+  border-color: blue; 
+  border-radius: 10px; 
+  border-style: dashed; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium; 
+  padding: 5px; 
+}
+
+.dogContainer {
+  background-color: yellow; 
+  display: flex;
+  flex-direction: row; 
+  width: 100%; 
+  justify-content: space-around;
+}
+
+.buttonContainer {
+  background-color: aqua; 
+  display: flex; 
+  flex-flow: row wrap; 
+  justify-content: space-around;
+  width: 25%;
+  border-color: red; 
+  border-radius: 15px; 
+  border-style: dashed; 
+  font-size: medium; 
+  padding: 10px; 
+} */

@@ -32,99 +32,21 @@ function App() {
         <h1><font size = "7"> Brian Wang </font></h1>
 
         <div className = "contactInfo">
-        <h2><font size = "6"><font color = "yellow"> brian.c.wang.23@dartmouth.edu</font></font></h2>
-        <h2><font size = "6"><font color = "yellow"> 510-516-9253 </font></font></h2>
-        <h2><font size = "6"><font color = "yellow"> www.linkedin.com/in/brianwang2023 </font></font></h2>
+        <h2><font size = "6"><font color = "black"> 510-516-9253 </font></font></h2>
+        <h2><font size = "6"><font color = "black"> brian.c.wang.23@dartmouth.edu</font></font></h2>
+        <h2><font size = "6"><font color = "black"> www.linkedin.com/in/brianwang2023 </font></font></h2>
         </div> 
 
         {/* <Dog name="Oscar"> </Dog> */}
-        <h2><font color="aqua">About me</font></h2>
+        <h2><font color="white">About me</font></h2>
         <div className = "aboutMe"> 
-        <p> <font color = "lime">My name is Brian Wang and I am currently a first-year student at Dartmouth College. I am completing a double major 
+        <p> <font color = "black">My name is Brian Wang and I am currently a first-year student at Dartmouth College. I am completing a double major 
           in computer science and economics modified with math. I'm originally from Raleigh, North Carolina and am currently residing in the San Francisco Bay Area. Through this website, I hope you can learn 
           more about me, my projects, and my hobbies.</font></p>
         </div>
-        <h2><font color = "red">What I like</font></h2>
-        <p><font color = "aqua">Though I'm not very good at it, I love watching and playing the game of <b>basketball.</b> Fun Fact: I even have a 
-        Little Tikes Hoop in my house which I've elevated to 7 feet, and my friends come and play on it sometimes. </font> </p> 
-        <img src={basketball} />
-        <figcaption><font color = "fuchsia">Me ballin'</font></figcaption>
-        <p><font color = 'lime'>I also love canoeing, kayaking, and anything else to do with water.</font></p>
-        <img src={kayak} width="2000" height="1500"/>
-        <figcaption><font color = "yellow">Kayaking on the Williamette River in Portland, Oregon</font></figcaption>
-        <p><font color = "red"> I also enjoy hanging out with my brother, David. He's now 24-years old but we 
-        still act like children when we're around each other.</font></p>
-        <img src = {tokyo} />
-        <figcaption><font color = "aqua"> My brother and I</font></figcaption>
-        <h2><font color = "fuchsia">My Favorite Internet Things</font></h2>
-        <ul>
-        <li><a
-          className="App-link"
-          href="https://www.buzzfeed.com/daves4/how-many-five-year-olds-can-you-take-in-a-fight"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          How many five year olds can you fight?
-        </a></li>
-        <li><a
-          className="App-link"
-          href="https://worldmapper.org/maps/?_sft_product_cat=population-atlas"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          World population atlas 
-        </a></li>
-        <li><a
-          className="App-link"
-          href="https://coronavirus.jhu.edu/map.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Coronavirus Map: stay informed!!
-        </a></li>
-        </ul>
-        {/* <button onClick={buttonFunction}>
-          Brian Wang's Internet History
-        </button>
-        <input type="text" onChange = {onChangeFunction}/>
-        <div className = "dogContainer">
-          {dogMap}
-          {dogMap2}
-        </div>
-        {component}
-        {component1} */}
 
-        <h4><font color = "aqua"> Tell me about yourself</font></h4>
-        <div className = "questionnaire"> 
-          Name: <input type="text"></input>
-          Email: <input type="text"></input>
-          Social-Security Number: <input type="text"></input>
-        </div>
+        <p> </p>
 
-        Checkbox: <input type="checkbox" onclick="myFunction()"></input>
-
-        <h4><font color = "white"> What are you right now? </font></h4>
-        <div className = "buttonContainer">
-        <button onClick={console.log("Happy")}>
-          Happy!
-        </button>
-        <button onClick={console.log("Sad")}>
-          Sad  
-        </button>
-        <button onClick={console.log("Excited")}>
-          Excited
-        </button>
-        <button onClick={console.log("Nervous")}>
-          Nervous
-        </button>
-        <button onClick={console.log("Tired")}>
-          Tired
-        </button>
-        <button onClick={console.log("Hungry")}>
-          Hungry
-        </button>
-        </div>
-        <p>  </p> 
 
         {/* Uses Vertical Timeline Element to construct visual timeline of projects I've worked on */}
         <div className = "projects">
@@ -248,6 +170,10 @@ function App() {
       </div>
       <p> </p>
 
+      <div className = "ending">
+      <p> Thanks for visiting my website! Please come again another time, as I will be constantly updating this site with projects and hobbies that I pick up. Also, I will be improving the design of this site as I get better at React and CSS! Please feel free to reach out to me at anytime. </p>
+      </div> 
+
 
       </header>
     </div>
@@ -309,4 +235,87 @@ export default App;
   //     return <p className="doggy"> {dog.name} likes {dog.activity}!</p>
   //   }
   // )
+
+
+  // <h2><font color = "red">What I like</font></h2>
+  // <p><font color = "aqua">Though I'm not very good at it, I love watching and playing the game of <b>basketball.</b> Fun Fact: I even have a 
+  // Little Tikes Hoop in my house which I've elevated to 7 feet, and my friends come and play on it sometimes. </font> </p> 
+  // <img src={basketball} />
+  // <figcaption><font color = "fuchsia">Me ballin'</font></figcaption>
+  // <p><font color = 'lime'>I also love canoeing, kayaking, and anything else to do with water.</font></p>
+  // <img src={kayak} width="2000" height="1500"/>
+  // <figcaption><font color = "yellow">Kayaking on the Williamette River in Portland, Oregon</font></figcaption>
+  // <p><font color = "red"> I also enjoy hanging out with my brother, David. He's now 24-years old but we 
+  // still act like children when we're around each other.</font></p>
+  // <img src = {tokyo} />
+  // <figcaption><font color = "aqua"> My brother and I</font></figcaption>
+  // <h2><font color = "fuchsia">My Favorite Internet Things</font></h2>
+  // <ul>
+  // <li><a
+  //   className="App-link"
+  //   href="https://www.buzzfeed.com/daves4/how-many-five-year-olds-can-you-take-in-a-fight"
+  //   target="_blank"
+  //   rel="noopener noreferrer"
+  // >
+  //   How many five year olds can you fight?
+  // </a></li>
+  // <li><a
+  //   className="App-link"
+  //   href="https://worldmapper.org/maps/?_sft_product_cat=population-atlas"
+  //   target="_blank"
+  //   rel="noopener noreferrer"
+  // >
+  //   World population atlas 
+  // </a></li>
+  // <li><a
+  //   className="App-link"
+  //   href="https://coronavirus.jhu.edu/map.html"
+  //   target="_blank"
+  //   rel="noopener noreferrer"
+  // >
+  //   Coronavirus Map: stay informed!!
+  // </a></li>
+  // </ul>
+  // {/* <button onClick={buttonFunction}>
+  //   Brian Wang's Internet History
+  // </button>
+  // <input type="text" onChange = {onChangeFunction}/>
+  // <div className = "dogContainer">
+  //   {dogMap}
+  //   {dogMap2}
+  // </div>
+  // {component}
+  // {component1} */}
+
+  // <h4><font color = "aqua"> Tell me about yourself</font></h4>
+  // <div className = "questionnaire"> 
+  //   Name: <input type="text"></input>
+  //   Email: <input type="text"></input>
+  //   Social-Security Number: <input type="text"></input>
+  // </div>
+
+  // Checkbox: <input type="checkbox" onclick="myFunction()"></input>
+
+  // <h4><font color = "white"> What are you right now? </font></h4>
+  // <div className = "buttonContainer">
+  // <button onClick={console.log("Happy")}>
+  //   Happy!
+  // </button>
+  // <button onClick={console.log("Sad")}>
+  //   Sad  
+  // </button>
+  // <button onClick={console.log("Excited")}>
+  //   Excited
+  // </button>
+  // <button onClick={console.log("Nervous")}>
+  //   Nervous
+  // </button>
+  // <button onClick={console.log("Tired")}>
+  //   Tired
+  // </button>
+  // <button onClick={console.log("Hungry")}>
+  //   Hungry
+  // </button>
+  // </div>
+  // <p>  </p> 
   
