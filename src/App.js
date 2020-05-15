@@ -11,60 +11,6 @@ import 'react-vertical-timeline-component/style.min.css';
 
 function App() {
 
-  // var name = "Trump";
-
-  // var component = null; 
-  // if (name == "Brian") {
-  //   component = <p>I am the greatest person on earth</p>
-  // }
-  // else {
-  //   component = <p>I am not the greatest person in the world</p>
-  //   console.log("He's not Brian")
-  // }
-  
-  // var component1 = name != "Trump"
-  // ? <p>You are not the savior of our nation</p>
-  // : <p>You are the savior of our nation</p>
-
-  // var buttonFunction =  () => {
-  //   console.log("This is working very well")
-  //   console.log(name == "Brian")
-  // }
-
-  // var onChangeFunction = (event) => {
-  //   console.log(event.target.value)
-  // }
-
-  // var myList = ["Tadashi", "April", "October"]
-  
-  // var dogMap = myList.map(
-  //   (name) => { 
-  //     return <p className = "doggy"> hi {name} !</p>;
-  //   }
-  // )
-
-  // var october = {
-  //   name: "October Bowman", 
-  //   age: 12, 
-  //   activity: "Living Outside",
-  //   color: "black"
-  // }
-
-  // var april = {
-  //   name: "April Chan", 
-  //   age: 1, 
-  //   activity: "Eating Food",
-  //   color: "gold"
-  // }
-
-  // var newList = [october, april];
-
-  // var dogMap2 = newList.map(
-  //   (dog) => {
-  //     return <p className="doggy"> {dog.name} likes {dog.activity}!</p>
-  //   }
-  // )
-
   function myFunction() {
     // Get the checkbox
     var checkBox = document.getElementById("myCheck");
@@ -83,14 +29,21 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1> Brian Wang </h1>
-        <Dog name="Oscar"> </Dog>
-        <h2><font color="fuchsia">Who I am</font></h2>
-        <p> <font color = "lime">My name is Brian Wang and I am currently a first-year student at Dartmouth College. At Dartmouth, I am doing a double major 
-          in computer science and economics modified with math. Due to the coronavirus, this spring term, I am <code>coding</code> from the comforts of my 
-          home in Fremont, California in the San Francisco Bay Area.</font></p>
-        <img src={bed} />
-        <figcaption><font color = "yellow"> Me @ home during 20S </font> </figcaption>
+        <h1><font size = "7"> Brian Wang </font></h1>
+
+        <div className = "contactInfo">
+        <h2><font size = "6"><font color = "yellow"> brian.c.wang.23@dartmouth.edu</font></font></h2>
+        <h2><font size = "6"><font color = "yellow"> 510-516-9253 </font></font></h2>
+        <h2><font size = "6"><font color = "yellow"> www.linkedin.com/in/brianwang2023 </font></font></h2>
+        </div> 
+
+        {/* <Dog name="Oscar"> </Dog> */}
+        <h2><font color="aqua">About me</font></h2>
+        <div className = "aboutMe"> 
+        <p> <font color = "lime">My name is Brian Wang and I am currently a first-year student at Dartmouth College. I am completing a double major 
+          in computer science and economics modified with math. I'm originally from Raleigh, North Carolina and am currently residing in the San Francisco Bay Area. Through this website, I hope you can learn 
+          more about me, my projects, and my hobbies.</font></p>
+        </div>
         <h2><font color = "red">What I like</font></h2>
         <p><font color = "aqua">Though I'm not very good at it, I love watching and playing the game of <b>basketball.</b> Fun Fact: I even have a 
         Little Tikes Hoop in my house which I've elevated to 7 feet, and my friends come and play on it sometimes. </font> </p> 
@@ -178,6 +131,7 @@ function App() {
           <h1><font color = "black" font-weight = "bold"> Projects </font></h1>
         </div>
         <div></div>
+
         <VerticalTimeline>
 
           <VerticalTimelineElement
@@ -287,6 +241,13 @@ function App() {
             </VerticalTimelineElement>
 
       </VerticalTimeline>
+      
+      <p> </p>
+      <div className = "hobbies">
+          <h1><font color = "black" font-weight = "bold"> Hobbies</font></h1>
+      </div>
+      <p> </p>
+
 
       </header>
     </div>
@@ -294,3 +255,58 @@ function App() {
 }
 
 export default App;
+
+  // var name = "Trump";
+
+  // var component = null; 
+  // if (name == "Brian") {
+  //   component = <p>I am the greatest person on earth</p>
+  // }
+  // else {
+  //   component = <p>I am not the greatest person in the world</p>
+  //   console.log("He's not Brian")
+  // }
+  
+  // var component1 = name != "Trump"
+  // ? <p>You are not the savior of our nation</p>
+  // : <p>You are the savior of our nation</p>
+
+  // var buttonFunction =  () => {
+  //   console.log("This is working very well")
+  //   console.log(name == "Brian")
+  // }
+
+  // var onChangeFunction = (event) => {
+  //   console.log(event.target.value)
+  // }
+
+  // var myList = ["Tadashi", "April", "October"]
+  
+  // var dogMap = myList.map(
+  //   (name) => { 
+  //     return <p className = "doggy"> hi {name} !</p>;
+  //   }
+  // )
+
+  // var october = {
+  //   name: "October Bowman", 
+  //   age: 12, 
+  //   activity: "Living Outside",
+  //   color: "black"
+  // }
+
+  // var april = {
+  //   name: "April Chan", 
+  //   age: 1, 
+  //   activity: "Eating Food",
+  //   color: "gold"
+  // }
+
+  // var newList = [october, april];
+
+  // var dogMap2 = newList.map(
+  //   (dog) => {
+  //     return <p className="doggy"> {dog.name} likes {dog.activity}!</p>
+  //   }
+  // )
+  

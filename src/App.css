@@ -77,9 +77,29 @@
   width: 15%; 
 }
 
+.hobbies {
+  background-color: yellow; 
+  border-color: white; 
+  border-radius: 15px; 
+  border-style: solid; 
+  width: 15%; 
+}
+
 .links {
   justify-content: space-between;
   flex-flow: column; 
+}
+
+.aboutMe {
+  width: 60%;
+}
+
+.contactInfo {
+  width: 60%; 
+  display: flex;
+  flex: row; 
+  justify-content: center;  
+  justify-content: space-between; 
 }
 
 .questionnaire {
