@@ -71,12 +71,22 @@
   width: 50%;
 }
 
+.projects {
+  background-color: rgb(24, 182, 24); 
+  border-color: white; 
+  border-radius: 10px; 
+  border-style: solid; 
+  width: 18%; 
+  font-family: "Lucida Calligraphy";  
+}
+
 .hobbies {
   background-color: yellow; 
   border-color: white; 
   border-radius: 10px; 
   border-style: solid; 
-  width: 15%; 
+  width: 18%; 
+  font-family: "Lucida Calligraphy"; 
 }
 
 .hobbyPics {
@@ -84,6 +94,15 @@
   display: flex; 
   flex-flow: row wrap; 
   justify-content: space-around; 
+}
+
+.fun {
+  background-color: pink; 
+  border-color: white; 
+  border-radius: 10px; 
+  border-style: solid; 
+  width: 22%; 
+  font-family: "Lucida Calligraphy"; 
 }
 
 a img {
@@ -107,14 +126,6 @@ a span {
 
 a:hover span {
   display: block
-}
-
-.projects {
-  background-color: rgb(24, 182, 24); 
-  border-color: white; 
-  border-radius: 10px; 
-  border-style: solid; 
-  width: 15%; 
 }
 
 .links {

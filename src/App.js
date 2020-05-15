@@ -178,17 +178,23 @@ function App() {
       <div className = "hobbyPics">
           <a>
             <img src={basketball}/>
-            <span>Ballin' in Taiwan</span>
+            <figcaption><font color = "white"> Balling in Taiwan</font></figcaption>
           </a>
           <a>
             <img src={football}/> 
-            <span> Throwing in my backyard </span>
+            <figcaption><font color = "white"> Throwing in my Backyard</font></figcaption>
           </a>
           <a> 
             <img src={kayak}/> 
-            <span> Kayaking on the Williamette River in Portland, OR</span>   
+            <figcaption><font color = "white"> Kayaking on the Williamette River in Portland, OR </font></figcaption>
           </a>
       </div>
+
+      <p> </p>
+      <div className = "fun">
+          <h1><font color = "black"> Fun Section</font></h1>
+      </div>
+      <p> </p>
 
       <p> </p>
       <div className = "ending">
