@@ -14,21 +14,6 @@ import 'react-vertical-timeline-component/style.min.css';
 
 function App() {
 
-  function myFunction() {
-    // Get the checkbox
-    var checkBox = document.getElementById("myCheck");
-    // Get the output text
-    var text = document.getElementById("text");
-  
-    // If the checkbox is checked, display the output text
-    if (checkBox.checked == true){
-      text.style.display = "block";
-    } else {
-      text.style.display = "none";
-    }
-  }
-
-
   return (
     <div className="App">
       <header className="App-header">
@@ -39,7 +24,6 @@ function App() {
           <p><font color = "black">510-516-9253</font></p>
         </div> 
 
-        {/* <Dog name="Oscar"> </Dog> */}
         <h2><font color="white">About Me</font></h2>
         <div className = "aboutMe"> 
         <p> <font color = "black">My name is Brian Wang and I am currently a first-year student at Dartmouth College. I am a double major 
@@ -195,12 +179,12 @@ function App() {
 
       <p> </p>
       <div className = "fun">
-          <h1><font color = "black"> Fun Section</font></h1>
+          <h1><font color = "black"> Random Things</font></h1>
           <p> </p>
       </div>
-      <p><font color = "white"> ** Hover over to see the fun facts ** </font></p>
+      <p><font color = "white"> ** Hover over to learn about me ** </font></p>
 
-      <div className = "funSection">
+      <div className = "funPics">
           <a>
             <img src={brothers}/>
             <span> My brother David and I</span>
@@ -231,6 +215,8 @@ function App() {
 }
 
 export default App;
+
+/* Code used during web development mini course-- keeping here for future reference */ 
 
   // var name = "Trump";
 
@@ -368,4 +354,18 @@ export default App;
   // </button>
   // </div>
   // <p>  </p> 
+  
+  // function myFunction() {
+  //   // Get the checkbox
+  //   var checkBox = document.getElementById("myCheck");
+  //   // Get the output text
+  //   var text = document.getElementById("text");
+  
+  //   // If the checkbox is checked, display the output text
+  //   if (checkBox.checked == true){
+  //     text.style.display = "block";
+  //   } else {
+  //     text.style.display = "none";
+  //   }
+  // }
   
