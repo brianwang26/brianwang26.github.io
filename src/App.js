@@ -36,7 +36,7 @@ function App() {
 
         <div className = "contactInfo">
           <p><font color = "black">brian.c.wang.23@dartmouth.edu</font></p>
-          <p><font color = "black">www.linkedin.com/in/brianwang2023</font></p>
+          <p><font color = "black">510-516-9253</font></p>
         </div> 
 
         {/* <Dog name="Oscar"> </Dog> */}
@@ -46,13 +46,7 @@ function App() {
           in computer science and economics modified with math. I was born in Raleigh, North Carolina and am currently residing in Fremont, California in the San Francisco Bay Area. 
           In my free time, I love playing an array of sports and hanging out with my 24-year old brother (sometimes I do both at the same time!). Through this website, I hope you can learn 
           more about me, my projects, and my hobbies. Hope you enjoy!</font></p>
-        </div>
-
-        <p> </p>
-
-        <div className = "selfImage">
-            <img src = {selfImage} />
-            <figcaption><font color = "white"> A picture of me at the top floor of the Tokyo Metropolitan Government Building</font></figcaption>
+          <img src = {selfImage} />
         </div>
 
         <p> </p>
@@ -228,6 +222,8 @@ function App() {
       <div className = "ending">
       <p> Thanks for visiting my website! Please come again another time, as I will be constantly updating this site with projects and hobbies that I pick up. Also, I will be improving the design of this site as I get better at React and CSS! Please feel free to reach out to me at anytime. </p>
       </div> 
+
+      <p> </p>
 
       </header>
     </div>

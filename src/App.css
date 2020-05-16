@@ -39,8 +39,8 @@
 
 .contactInfo {
   width: 65%; 
-  background-color: greenyellow;  
-  border-color: white; 
+  background-color: rgb(33,150,243);  
+  border-color: white;
   padding: 5px; 
   border-radius: 10px; 
   border-style: solid; 
@@ -51,19 +51,31 @@
 }
 
 .aboutMe {
-  width: 65%;
-  background-color: orange; 
+  display: flex; 
+  justify-content: flex-start; 
+  width: 70%;
+  background-color:rgb(34, 139, 34); 
   border-color: white; 
   padding: 5px; 
   border-radius: 10px; 
   border-style: solid; 
 }
 
+.aboutMe img {
+  height: auto; 
+  width: 30%; 
+}
+
 .selfImage {
+  background-color: rgb(255,99,71); 
+  border-color: white; 
+  border-radius: 10px; 
+  border-style: solid; 
   width: 65%; 
   display: flex;  
   flex-flow: row wrap;
   justify-content: space-around; 
+  padding: 10px; 
 }
 
 .selfImage img {
@@ -72,8 +84,9 @@
 }
 
 .projects {
-  background-color: rgb(24, 182, 24); 
-  border-color: white; 
+  background-color: rgb(255,99,71); 
+  color: white; 
+  border-color: white;
   border-radius: 10px; 
   border-style: solid; 
   width: 18%; 
@@ -81,7 +94,7 @@
 }
 
 .hobbies {
-  background-color: yellow; 
+  background-color: rgb(33,150,243); 
   border-color: white; 
   border-radius: 10px; 
   border-style: solid; 
@@ -90,14 +103,19 @@
 }
 
 .hobbyPics {
-  width: 60%; 
+  width: 70%; 
   display: flex; 
   flex-flow: row wrap; 
   justify-content: space-around; 
+  background-color: rgb(34, 139, 34);  
+  border-color: white; 
+  border-radius: 10px; 
+  border-style: solid; 
+  padding: 10px; 
 }
 
 .fun {
-  background-color: pink; 
+  background-color: rgb(255,99,71); 
   border-color: white; 
   border-radius: 10px; 
   border-style: solid; 
@@ -106,8 +124,13 @@
 }
 
 .funSection{
-  width: 60%; 
+  width: 70%; 
   display: flex; 
+  background-color: rgb(33,150,243);  
+  border-color: white; 
+  border-radius: 10px; 
+  border-style: solid; 
+  padding: 10px; 
   flex-flow: row wrap; 
   justify-content: space-around; 
 }
@@ -132,7 +155,7 @@ a span {
 }
 
 a:hover span {
-  display: block
+  display: block;
 }
 
 .links {
@@ -142,7 +165,7 @@ a:hover span {
 
 .ending{
   width: 65%; 
-  background-color: aqua; 
+  background-color: rgb(34, 139, 34); 
   color: black; 
   border-color: white; 
   padding: 5px; 
