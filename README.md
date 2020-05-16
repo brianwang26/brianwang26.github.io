@@ -1,4 +1,4 @@
-To visit my website, go to brianwang.me
+My personal website can be found at brianwang.me
 
 ## Overview
 
