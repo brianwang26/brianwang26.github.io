@@ -1,14 +1,17 @@
 import React from 'react';
-import basketball from './basketball.png';
-import kayak from './kayak.jpeg';
-import football from './Football.png';
+import './App.css'; 
 import selfImage from './selfImage.png';
+import basketball from './basketball.png';
+import kayak from './kayak.jpeg'; 
+import gym from './Gym.png';
+import football from './Football.png';
+import spikeball from './spikeball.png';
+import camping from './camping.png';
 import umbrella from './umbrella.png';
 import brothers from './brothers.png';
+import littleTikes from './littletikes.png';
+import miniMe from './youngBrian.png';
 import deer from './deer.png';
-import spikeball from './spikeball.png';
-
-import './App.css'; 
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -16,6 +19,7 @@ function App() {
 
   return (
     <div className="App">
+
       <header className="App-header">
         <h1><font size = "7"> Brian Wang </font></h1>
 
@@ -33,14 +37,14 @@ function App() {
           <img src = {selfImage} />
         </div>
 
-        <p> </p>
+        <p> </p> 
 
-
-        {/* Uses Vertical Timeline Element to construct visual timeline of projects I've worked on */}
         <div className = "projects">
           <h1><font color = "black" font-weight = "bold"> Projects </font></h1>
         </div>
         <div></div>
+
+        {/* Uses Vertical Timeline Element to construct visual timeline of projects I've worked on */}
 
         <VerticalTimeline>
 
@@ -158,6 +162,7 @@ function App() {
       </div>
       <p> </p>
 
+      {/* Place photos of hobbies into gallery */}
       <div className = "hobbyPics">
           <a>
             <img src={basketball}/>
@@ -167,10 +172,22 @@ function App() {
             <img src={football}/> 
             <figcaption><font color = "white"> Throwing in my Backyard</font></figcaption>
           </a>
+
+          <a> 
+            <img src={gym}/> 
+            <figcaption><font color = "white"> Getting Swole </font></figcaption>
+          </a>
+
           <a> 
             <img src={kayak}/> 
             <figcaption><font color = "white"> Kayaking on the Williamette River in Portland, OR </font></figcaption>
           </a>
+
+          <a> 
+            <img src={camping}/> 
+            <figcaption><font color = "white"> Camping with my high school friends </font></figcaption>
+          </a>
+
           <a> 
             <img src={spikeball}/> 
             <figcaption><font color = "white"> Playing spikeball on the Santa Cruz Beach with friends </font></figcaption>
@@ -178,31 +195,47 @@ function App() {
       </div>
 
       <p> </p>
+
       <div className = "fun">
           <h1><font color = "black"> Random Things</font></h1>
           <p> </p>
       </div>
+
       <p><font color = "white"> ** Hover over to learn about me ** </font></p>
 
+       {/* Place photos of random things into gallery */}
+       {/* a tag allows us to have hover captions */}
       <div className = "funPics">
-          <a>
-            <img src={brothers}/>
-            <span> My brother David and I</span>
-          </a>
-
+          
           <a>
             <img src={umbrella}/> 
             <span> I actually don't know how to use an umbrella</span>
           </a>
 
           <a> 
+            <img src={brothers}/>
+            <span> My brother David and I</span>
+          </a>
+
+          <a> 
+            <img src={miniMe}/> 
+            <span> My 5th grade self losing in a game of Wii Sports</span>
+          </a>
+
+          <a> 
             <img src={deer}/> 
             <span> Me bowing to deer in Nara, Japan</span>
           </a>
+
+          <a> 
+            <img src={littleTikes}/> 
+            <span> I have a Little Tikes Hoop that I love playing with in my house's living room</span>
+          </a>
+
       </div>
 
-
       <p> </p>
+
       <div className = "ending">
       <p> Thanks for visiting my website! Please come again another time, as I will be constantly updating this site with projects and hobbies that I pick up. Also, I will be improving the design of this site as I get better at React and CSS! Please feel free to reach out to me at anytime. </p>
       </div> 
@@ -354,7 +387,7 @@ export default App;
   // </button>
   // </div>
   // <p>  </p> 
-  
+
   // function myFunction() {
   //   // Get the checkbox
   //   var checkBox = document.getElementById("myCheck");

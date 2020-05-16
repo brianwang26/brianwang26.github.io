@@ -37,8 +37,9 @@
   }
 }
 
+/* For contact info bar */
 .contactInfo {
-  width: 65%; 
+  width: 40%; 
   background-color: rgb(33,150,243);  
   border-color: white;
   padding: 5px; 
@@ -50,6 +51,7 @@
   justify-content: space-around; 
 }
 
+/* For about me section */
 .aboutMe {
   display: flex; 
   justify-content: flex-start; 
@@ -61,28 +63,13 @@
   border-style: solid; 
 }
 
+/* For profile pic in section */
 .aboutMe img {
   height: auto; 
   width: 30%; 
 }
 
-.selfImage {
-  background-color: rgb(255,99,71); 
-  border-color: white; 
-  border-radius: 10px; 
-  border-style: solid; 
-  width: 65%; 
-  display: flex;  
-  flex-flow: row wrap;
-  justify-content: space-around; 
-  padding: 10px; 
-}
-
-.selfImage img {
-  height: auto;
-  width: 50%;
-}
-
+/* For projects title box */
 .projects {
   background-color: rgb(255,99,71); 
   border-color: white;
@@ -92,6 +79,7 @@
   font-family: "Lucida Calligraphy";  
 }
 
+/* For hobbies title box */
 .hobbies {
   background-color: rgb(33,150,243); 
   border-color: white; 
@@ -101,48 +89,54 @@
   font-family: "Lucida Calligraphy"; 
 }
 
+/* For hobby pictures */
 .hobbyPics {
-  width: 70%; 
+  width: 70%;
   display: flex; 
   flex-flow: row wrap; 
   justify-content: space-around; 
   background-color: rgb(34, 139, 34);  
   border-color: white; 
-  border-radius: 10px; 
+  border-radius: 15px; 
   border-style: solid; 
-  padding: 10px; 
+  padding: 15px; 
 }
 
+/* For random section title box */
 .fun {
   background-color: rgb(255,99,71); 
   border-color: white; 
   border-radius: 10px; 
   border-style: solid; 
-  width: 22%; 
+  width: 30%; 
   font-family: "Lucida Calligraphy"; 
 }
 
+/* For random section pictures */
 .funPics{
-  width: 70%; 
+  width: 66%; 
   display: flex; 
   background-color: rgb(33,150,243);  
   border-color: white; 
-  border-radius: 10px; 
+  border-radius: 15px; 
   border-style: solid; 
-  padding: 10px; 
+  padding: 15px; 
   flex-flow: row wrap; 
   justify-content: space-around; 
 }
 
+/* For images with hover captions */ 
 a img {
   width: auto; 
   height: 300px; 
 }
 
+/* For images with hover captions */ 
 a {
   position: relative; 
 }
 
+/* Hover captions */ 
 a span {
   display: none;
   position: absolute;
@@ -153,10 +147,12 @@ a span {
   background: black(255,255,255,.8);
 }
 
+/* Hover captions */ 
 a:hover span {
   display: block;
 }
 
+/* For final box */ 
 .ending{
   width: 65%; 
   background-color: rgb(34, 139, 34); 
