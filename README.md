@@ -13,3 +13,15 @@ I implemented React's Vertical Timeline Component and used it to build a timelin
 
 **Hover Captions** 
 
+I also implemented hover captions in the "Random Things" part of my page. To do this, I had to write special CSS code to only display captions when a user hovered over a picture. Below is the CSS: 
+
+<img src = "Images/HoverCode.png" width = "300">
+
+Below is an example of one of these hover captions: 
+
+<img src = "Images/HoverExample.png" width = "300">
+
+### Future Improvements
+
+As I learn more React/CSS, I hope to improve the design of this site and make it more interactive. I also hope to add more information in the future. 
+
