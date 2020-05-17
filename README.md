@@ -6,6 +6,7 @@ This website is built with React and CSS. I started building this website as a p
 ### Notable Features
 
 **Project Timeline**
+
 I implemented React's Vertical Timeline Component and used it to build a timeline of all the development projects I've worked on. 
 
 <img src = "Images/timelineDemo.png" width = "300">
