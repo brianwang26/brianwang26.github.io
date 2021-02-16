@@ -24,8 +24,8 @@ function App() {
         <h1><font size = "7"> Brian Wang </font></h1>
 
         <div className = "contactInfo">
-          <p><font color = "black">brian.c.wang.23@dartmouth.edu</font></p>
-          <p><font color = "black">510-516-9253</font></p>
+          <p><font color = "black"></font></p>
+          <p><font color = "black"></font></p>
         </div> 
 
         <h2><font color="white">About Me</font></h2>
